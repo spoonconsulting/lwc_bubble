@@ -1,0 +1,12 @@
+<template>
+    <lightning-card title="Contacts">
+        <div class="slds-grid slds-gutters">
+            <div class="slds-col slds-size_1-of-2">
+                <c-contact-list contacts={contacts}></c-contact-list>
+            </div>
+            <div class="slds-col slds-size_1-of-2">
+                <c-contact-details contact={selectedContact}></c-contact-details>
+            </div>
+        </div>
+    </lightning-card>
+</template>

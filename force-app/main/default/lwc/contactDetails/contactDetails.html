@@ -1,0 +1,39 @@
+<template>
+    <div class="slds-form" role="list">
+        <div class="slds-form__row">
+            <div class="slds-form__item" role="listitem">
+                <div
+                    class="slds-form-element slds-form-element_edit slds-form-element_readonly slds-form-element_horizontal slds-hint-parent">
+                    <span class="slds-form-element__label">First name</span>
+                    <div class="slds-form-element__control">
+                        <div class="slds-form-element__static">{contact.FirstName}</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="slds-form__row">
+            <div class="slds-form__item" role="listitem">
+                <div
+                    class="slds-form-element slds-form-element_edit slds-form-element_readonly slds-form-element_horizontal slds-hint-parent">
+                    <span class="slds-form-element__label">Last name</span>
+                    <div class="slds-form-element__control">
+                        <div class="slds-form-element__static">{contact.LastName}</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="slds-form__row">
+            <div class="slds-form__item" role="listitem">
+                <div
+                    class="slds-form-element slds-form-element_edit slds-form-element_readonly slds-form-element_horizontal slds-hint-parent">
+                    <span class="slds-form-element__label">Email</span>
+                    <div class="slds-form-element__control">
+                        <div class="slds-form-element__static">
+                            <a href={email}>{contact.Email}</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</template>
